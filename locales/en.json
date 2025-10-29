@@ -1,0 +1,24 @@
+{
+  "extensionName": "ColorRevive",
+  "extensionTagline": "Restore colours to websites",
+  "statusEnabled": "Enabled",
+  "statusDisabled": "Disabled",
+  "toggleLabel": "Extension Status",
+  "languageLabel": "Language",
+  "infoText": "This extension automatically removes grayscale filters from websites, restoring full colours for better readability.",
+  "version": "Version",
+  "github": "View on GitHub",
+  "helpTitle": "Quick Help",
+  "helpText1": "Toggle the switch to enable/disable colour restoration",
+  "helpText2": "Colours will be restored automatically when enabled",
+  "whitelistTitle": "Whitelisted Sites",
+  "whitelistDescription": "The extension will not remove grayscale filters on these sites",
+  "whitelistPlaceholder": "Enter domain (e.g., facebook.com)",
+  "whitelistAdd": "Add",
+  "whitelistEmpty": "No whitelisted sites yet",
+  "whitelistRemove": "Remove",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "themeLabel": "Theme"
+}
+

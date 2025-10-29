@@ -1,0 +1,24 @@
+{
+  "extensionName": "ColorRevive",
+  "extensionTagline": "คืนสีสันให้กับเว็บไซต์",
+  "statusEnabled": "เปิดใช้งาน",
+  "statusDisabled": "ปิดใช้งาน",
+  "toggleLabel": "สถานะส่วนขยาย",
+  "languageLabel": "ภาษา",
+  "infoText": "ส่วนขยายนี้จะลบฟิลเตอร์ขาวดำออกจากเว็บไซต์โดยอัตโนมัติ เพื่อคืนสีสันเต็มรูปแบบให้อ่านง่ายขึ้น",
+  "version": "เวอร์ชัน",
+  "github": "ดูบน GitHub",
+  "helpTitle": "วิธีใช้งาน",
+  "helpText1": "คลิกที่สวิตช์เพื่อเปิดหรือปิดการคืนสีสัน",
+  "helpText2": "สีสันบนหน้าเว็บจะกลับมาโดยอัตโนมัติเมื่อเปิดใช้งาน",
+  "whitelistTitle": "เว็บไซต์ที่ยกเว้น",
+  "whitelistDescription": "ส่วนขยายจะไม่ลบฟิลเตอร์ขาวดำบนเว็บไซต์เหล่านี้",
+  "whitelistPlaceholder": "ใส่โดเมน (เช่น facebook.com)",
+  "whitelistAdd": "เพิ่ม",
+  "whitelistEmpty": "ยังไม่มีเว็บไซต์ที่ยกเว้น",
+  "whitelistRemove": "ลบ",
+  "themeLight": "สว่าง",
+  "themeDark": "มืด",
+  "themeLabel": "ธีม"
+}
+
