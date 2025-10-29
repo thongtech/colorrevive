@@ -31,7 +31,7 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "colorrevive@vorapolr",
-      "strict_min_version": "57.0"
+      "strict_min_version": "58.0"
     }
   }
 }
