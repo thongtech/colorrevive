@@ -2,7 +2,7 @@
 
 A browser extension for Chrome and Firefox that automatically removes grayscale filters from websites, restoring vibrant colours for better readability.
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/thongtech/colorrevive)
+[![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/thongtech/colorrevive)
 [![Chrome](https://img.shields.io/badge/Chrome-Manifest%20V3-yellow.svg)](manifest.json)
 [![Firefox](https://img.shields.io/badge/Firefox-Manifest%20V2-orange.svg)](manifest.firefox.json)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -65,12 +65,29 @@ Some users find grayscale websites harder to read due to:
 2. Click "Add to Chrome"
 3. Enjoy!
 
+#### From GitHub Release
+1. Download `colorrevive-chrome-<version>.zip` from [Releases](https://github.com/thongtech/colorrevive/releases/latest)
+2. Extract the ZIP file
+3. Open `chrome://extensions/` in your browser
+4. Enable "Developer mode" (toggle in the top right)
+5. Click "Load unpacked"
+6. Select the extracted folder
+7. The extension icon will appear in your toolbar
+
 ### Mozilla Firefox / Gecko-based
 
 #### From Firefox Add-ons (Recommended)
 1. Visit [Firefox Add-ons](#) (coming soon)
 2. Click "Add to Firefox"
 3. Enjoy!
+
+#### From GitHub Release
+1. Download `colorrevive-firefox-<version>.zip` from [Releases](https://github.com/thongtech/colorrevive/releases/latest)
+2. Extract the ZIP file
+3. Open `about:debugging#/runtime/this-firefox` in your browser
+4. Click "Load Temporary Add-on"
+5. Navigate to the extracted folder and select `manifest.json`
+6. The extension will be loaded temporarily (removed on browser restart)
 
 ## 🤝 Contributing
 

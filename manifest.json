@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ColorRevive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remove grayscale filters from websites for improved readability",
   "permissions": [
     "storage"
@@ -9,6 +9,9 @@
   "host_permissions": [
     "<all_urls>"
   ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {

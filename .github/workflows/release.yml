@@ -1,0 +1,49 @@
+name: Release Extension
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (e.g., 1.0.0)'
+        required: true
+        type: string
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Chrome extension
+        run: |
+          chmod +x build-chrome.sh
+          ./build-chrome.sh ${{ github.event.inputs.version }}
+
+      - name: Build Firefox extension
+        run: |
+          chmod +x build-firefox.sh
+          ./build-firefox.sh ${{ github.event.inputs.version }}
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ github.event.inputs.version }}
+          name: ColorRevive v${{ github.event.inputs.version }}
+          body: |
+            ## ColorRevive v${{ github.event.inputs.version }}
+            
+            Browser extension that automatically removes grayscale filters from websites.
+            
+            See [README.md](https://github.com/${{ github.repository }}/blob/main/README.md) for installation instructions.
+          files: |
+            colorrevive-chrome-v${{ github.event.inputs.version }}.zip
+            colorrevive-firefox-v${{ github.event.inputs.version }}.zip
+          draft: true
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

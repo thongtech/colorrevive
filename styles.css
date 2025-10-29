@@ -593,13 +593,10 @@ input:focus + .switch-slider {
   border-top: 1px solid var(--border-color);
   padding: 16px 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   gap: 12px;
-}
-
-.footer-links {
-  display: flex;
-  justify-content: center;
 }
 
 .footer-link {
@@ -626,10 +623,10 @@ input:focus + .switch-slider {
 }
 
 .version-info {
-  text-align: center;
   font-size: 11px;
   color: var(--text-secondary);
   font-weight: 500;
+  white-space: nowrap;
 }
 
 /* Animations */
