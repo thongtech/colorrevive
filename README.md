@@ -7,7 +7,7 @@ A browser extension for Chrome and Firefox that automatically removes grayscale 
 [![Firefox](https://img.shields.io/badge/Firefox-Manifest%20V2-orange.svg)](manifest.firefox.json)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Chrome Web Store](https://img.shields.io/badge/chrome-extension-orange.svg)](https://chrome.google.com/webstore)
-[![Firefox Add-ons](https://img.shields.io/badge/firefox-add--on-orange.svg)](https://addons.mozilla.org)
+[![Firefox Add-on](https://img.shields.io/amo/v/colorrevive?label=Firefox%20Add-on)](https://addons.mozilla.org/en-GB/firefox/addon/colorrevive/)
 
 **[English](README.md) | [ภาษาไทย](README.th.md)**
 
@@ -77,7 +77,7 @@ Some users find grayscale websites harder to read due to:
 ### Mozilla Firefox / Gecko-based
 
 #### From Firefox Add-ons (Recommended)
-1. Visit [Firefox Add-ons](#) (coming soon)
+1. Visit [Firefox Add-ons](https://addons.mozilla.org/en-GB/firefox/addon/colorrevive/)
 2. Click "Add to Firefox"
 3. Enjoy!
 

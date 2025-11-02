@@ -7,7 +7,7 @@
 [![Firefox](https://img.shields.io/badge/Firefox-Manifest%20V2-orange.svg)](manifest.firefox.json)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Chrome Web Store](https://img.shields.io/badge/chrome-extension-orange.svg)](https://chrome.google.com/webstore)
-[![Firefox Add-ons](https://img.shields.io/badge/firefox-add--on-orange.svg)](https://addons.mozilla.org)
+[![Firefox Add-on](https://img.shields.io/amo/v/colorrevive?label=Firefox%20Add-on)](https://addons.mozilla.org/en-GB/firefox/addon/colorrevive/)
 
 **[English](README.md) | [ภาษาไทย](README.th.md)**
 
@@ -77,7 +77,7 @@ ColorRevive ออกแบบมาเพื่อช่วยในสถา�
 ### Mozilla Firefox / Gecko-based
 
 #### จาก Firefox Add-ons (แนะนำ)
-1. เข้าชม [Firefox Add-ons](#) (เร็วๆ นี้)
+1. เข้าชม [Firefox Add-ons](https://addons.mozilla.org/en-GB/firefox/addon/colorrevive/)
 2. คลิก "เพิ่มใน Firefox"
 3. เสร็จสิ้น!
 
