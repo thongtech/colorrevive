@@ -6,7 +6,7 @@
 [![Chrome](https://img.shields.io/badge/Chrome-Manifest%20V3-yellow.svg)](manifest.json)
 [![Firefox](https://img.shields.io/badge/Firefox-Manifest%20V2-orange.svg)](manifest.firefox.json)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Chrome Web Store](https://img.shields.io/badge/chrome-extension-orange.svg)](https://chrome.google.com/webstore)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/blkhbcflichlgphgahiglmnjpinepkni?label=Chrome%20Web%20Store)](https://chromewebstore.google.com/detail/colorrevive/blkhbcflichlgphgahiglmnjpinepkni)
 [![Firefox Add-on](https://img.shields.io/amo/v/colorrevive?label=Firefox%20Add-on)](https://addons.mozilla.org/en-GB/firefox/addon/colorrevive/)
 
 **[English](README.md) | [ภาษาไทย](README.th.md)**
@@ -61,7 +61,7 @@ ColorRevive ออกแบบมาเพื่อช่วยในสถา�
 ### Google Chrome / Chromium-based
 
 #### จาก Chrome Web Store (แนะนำ)
-1. เข้าชม [Chrome Web Store](#) (เร็วๆ นี้)
+1. เข้าชม [Chrome Web Store](https://chromewebstore.google.com/detail/colorrevive/blkhbcflichlgphgahiglmnjpinepkni)
 2. คลิก "เพิ่มใน Chrome"
 3. เสร็จสิ้น!
 
